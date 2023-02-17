@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper_nav {
+  height: 60px;
+  background-color: antiquewhite;
+}
+
+.wrapper_nav_title {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav_title_caption {
+  font-size: 12px;
+}
+.nav_title_title {
+  font-size: 18px;
+}
+.wrapper_content {
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.wrapper_footer {
+  height: 40px;
+  background-color: beige;
+}
