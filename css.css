@@ -73,13 +73,23 @@ a {
   padding: 15px;
 }
 
-.wrapper_content_day1 {
+#content_day1_title {
+  text-align: center;
+  margin: 10px;
+  font-size: 18px;
 }
 img {
   width: 80%;
 }
 
+.img-div {
+  text-align: center;
+}
+
 .wrapper_footer {
-  height: 40px;
-  background-color: beige;
+  height: 20px;
+  background-color: antiquewhite;
+  font-size: 10px;
+  padding-top: 3px;
+  text-align: center;
 }
